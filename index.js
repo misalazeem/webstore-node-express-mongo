@@ -1,6 +1,11 @@
 const express = require('express')
-const app = express()
-const port = 3000
+const mongoose = require('mongoose');
+require('dotenv').config();
+const app = express();
+const port = 3001
+const connectDB = require('./config/db');
+
+connectDB();
 
 const userRoute = require('./routes/user');
 app.use('/user', userRoute);
