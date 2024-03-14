@@ -6,7 +6,7 @@ const port = 3001
 const connectDB = require('./config/db');
 
 connectDB();
-
+app.use(express.json());
 const userRoute = require('./routes/user');
 app.use('/user', userRoute);
 
