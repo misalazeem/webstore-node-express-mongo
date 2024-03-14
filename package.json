@@ -1,0 +1,17 @@
+{
+  "name": "webstore-node-express-mongo",
+  "version": "1.0.0",
+  "description": "This is a backend project for a webstore built with MERN..",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}
